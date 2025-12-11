@@ -9,3 +9,12 @@ This project demonstrates a simple family tree program implemented in Prolog. It
 - Sample queries with expected output
 
 ## Project Structure
+## Usage
+1. Open `family_tree.pl` in a Prolog interpreter.
+2. Load the file: `?- [family_tree].`
+3. Run queries, for example:
+   - `?- parent(john, X).`
+   - `?- grandparent(john, X).`
+   - `?- sibling(mary, X).`
+   - `?- cousin(susan, david).`
+   - `?- descendant(john, X).`
